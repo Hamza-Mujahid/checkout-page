@@ -33,6 +33,13 @@ extension_points = [
    name = "Timer"
    description = "Please Put The Remaining Minutes For Example ( 15 )"
 
+
+   [[settings.fields]]
+   key = "expired_after_text"
+   type = "single_line_text_field"
+   name = "Expired After Text"
+   description = "Add some text that will show after the timer expires"
+
     [[settings.fields]]
   key = "timer_text_color"
   type = "single_line_text_field"
